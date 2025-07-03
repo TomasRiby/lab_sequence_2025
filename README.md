@@ -52,7 +52,7 @@ Alternatively, you can run the frontend using npm:
 
 The backend is a Quarkus application that provides a RESTful API for managing users and their associated data.
 
-You can access the backend API at: [http://localhost:8080/lab/seq/10](http://localhost:8080/lab/seq/10).
+You can access the backend API at: [http://localhost:8080/labseq/10](http://localhost:8080/labseq/10).
 
 (You can then change the number 10 to whatever positive integer.)
 
