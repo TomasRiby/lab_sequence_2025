@@ -1,0 +1,8 @@
+<div class="calculator">
+  <label>n: <input type="number" [(ngModel)]="n" min="0" /></label>
+  <button (click)="compute()" [disabled]="loading">Compute</button>
+  <div>
+    <label>result:</label>
+    <span>{{ result }}</span>
+  </div>
+</div>

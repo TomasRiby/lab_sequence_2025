@@ -1,0 +1,75 @@
+/* Container */
+.calculator {
+  max-width: 360px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Heading (if you add one) */
+.calculator h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+/* Label + input row */
+.calculator > label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+.calculator > label input {
+  flex: 1;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+/* Button */
+.calculator > button {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.calculator > button:hover:not(:disabled) {
+  background: #0056b3;
+}
+.calculator > button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Result area */
+.calculator > div {
+  display: flex;
+  align-items: baseline;
+}
+.calculator > div > label {
+  font-weight: 500;
+  margin-right: 0.5rem;
+  color: #333;
+}
+.calculator > div > span {
+  font-family: 'Courier New', monospace;
+  background: #f5f5f5;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  word-break: break-all;
+  color: #111;
+}
